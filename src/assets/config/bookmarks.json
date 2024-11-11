@@ -1,0 +1,190 @@
+[
+  {
+    "title": "soyo的小破站",
+    "link": "http://8.138.32.102/",
+    "menuIcon": "⭐"
+  },
+  {
+    "title":"up分享不易 关注up吧",
+    "link":"https://space.bilibili.com/3494369390758822"
+  },
+  {
+    "title": "javaGuide",
+    "link": "https://javaguide.cn/",
+    "favicon": "https://javaguide.cn/logo.svg"
+  },
+  {
+    "title": "算法",
+    "items": [
+      {
+        "title": "代码随想录",
+        "link": "https://programmercarl.com/",
+        "favicon": "https://code-thinking-1253855093.file.myqcloud.com/pics/20210614201246512.png"
+      },
+      {
+        "title": "数据结构与算法之美",
+        "link": "https://freegeektime.com/posts/100017301/",
+        "favicon": "https://img.xjh.me/random_img.php"
+
+      },
+      {
+        "title":"剑指offer 66题",
+        "link":"https://www.cnblogs.com/gzshan/p/10910831.html"
+      },
+      {
+        "title":"codeTop 大厂面试常考算法题汇总",
+        "link":"https://codetop.cc/home"
+      },
+      {
+        "title":"灵查山爱f",
+        "link":"https://space.bilibili.com/206214"
+      }
+    ]
+  },
+  {
+    "title": "八股文",
+    "items": [
+      {
+        "title": "javaGuide",
+        "link": "https://javaguide.cn/",
+        "favicon": "https://javaguide.cn/logo.svg"
+      },
+      {
+        "title": "interviewGuide",
+        "link": "https://top.interviewguide.cn/",
+        "favicon": "https://top.interviewguide.cn/img/logo.png"
+      },
+      {
+        "title": "面试鸭",
+        "link": "https://www.mianshiya.com/",
+        "favicon": "https://www.mianshiya.com/_next/image?url=%2Flogo.png&w=64&q=75"
+      }
+    ]
+  },
+  {
+    "title": "面试经历",
+    "items": [
+      {
+        "title": "上岸bat",
+        "link": "https://www.nowcoder.com/feed/main/detail/3b482621600c474fa407460c9ef722ff"
+      },
+      {
+        "title": "如何找到第一份实习",
+        "link": "https://www.nowcoder.com/discuss/353159065624846336"
+      },
+      {
+        "title": "某大二大佬的实习工作项目",
+        "link": "https://h1nj7u0kkda.feishu.cn/docx/OwkWdYdfwo5Nq5xkQuncVQ23nLe"
+
+      }
+
+    ]
+  },
+  {
+    "title": "计算机基础四大件",
+    "items": [
+      {
+        "title": "操作系统导论课后作业源码",
+        "link": "https://github.com/remzi-arpacidusseau/ostep-homework/"
+      },
+      {
+        "title": "图解操作系统-小林coding",
+        "link": "https://xiaolincoding.com/os/",
+        "favicon": "https://cdn.xiaolincoding.com/icon.webp"
+      },
+      {
+        "title": "图解计算机网络-小林coding",
+        "link": "https://xiaolincoding.com/network/",
+        "favicon": "https://cdn.xiaolincoding.com/icon.webp"
+      },{
+        "title": "MIT 6.1810 操作系统 Lab全解",
+        "link": "https://juejin.cn/column/7276350321094082614"
+      }
+    ]
+  },
+  {
+    "title": "billbill 宝藏up",
+    "items": [
+      {
+        "title": "爱敲代码的小黄",
+        "link": "https://space.bilibili.com/260134698"
+      },
+      {
+        "title": "优雅OVO",
+        "link": "https://space.bilibili.com/437185092"
+      }
+    ]
+  },
+  {
+    "title": "公众号 宝藏up",
+    "items": [
+      {
+        "title": "竹子爱熊猫",
+        "link": "https://mp.weixin.qq.com/s/4TJJMwV6tlbu-I6uRRN3Rw"
+      },
+      {
+        "title": "芋道源码",
+        "link": "https://mp.weixin.qq.com/s/s-Izu6oaasdZeXiPT8D2dA"
+      }
+    ]
+  },
+  {
+    "title": "宝藏 技术blog",
+    "items": [
+      {
+        "title": "明凡知识宝典",
+        "link": "https://mingfancloud.cn/",
+        "favicon": "https://mingfancloud.cn/logo.png"
+      },
+      {
+        "title": "系统设计",
+        "link": "https://blog.qizong007.top/system-design-resource"
+
+      }
+    ]
+  },
+  {
+    "title": "java后端项目",
+    "items": [
+      {
+        "title": "api开放平台",
+        "link": "https://pan.baidu.com/share/init?surl=vK7hAGEFSmypNWdKCZ_k0Q&pwd=yapi"
+      },
+      {
+        "title": "微服务项目天机学堂 password:hquj",
+        "link": "https://pan.baidu.com/s/1R4fkDSaX9nZiIrbFp1OaTA#list/path=%2F"
+      },
+      {
+        "title": "黑马点评",
+        "link": "https://www.bilibili.com/video/BV1cr4y1671t?vd_source=cae07b1dce3e6abe67fcf72c43031ede"
+      },
+      {
+        "title": "在线oj判题系统",
+        "link": "https://pan.baidu.com/s/15TlaLhWModl062ECWvicjQ?from=init&pwd=6666#list/path=%2F%E9%B1%BC%E7%9A%AE%E9%A1%B9%E7%9B%AE%2F%E9%B1%BC%E7%9A%AEOJ-%E5%9C%A8%E7%BA%BF%E5%88%A4%E9%A2%98%E7%B3%BB%E7%BB%9F"
+      },
+      {
+        "title": "项目训练营",
+        "link": "https://pan.baidu.com/s/1akapbPse16-UqOVy3wR-zw#list/path=%2F"
+        
+      }
+    ]
+  },
+  {
+    "title": "工具",
+    "items": [
+      {
+        "title": "chat gpt",
+        "link": "https://chatgpt.com/"
+        
+      },
+      {
+        "title": "vercel免费网页部署",
+        "link": "https://vercel.com/"
+      }
+    ]
+  },
+  {
+    "title": "圣地巡礼网站",
+    "link": "anitabi.cn/map"
+  }
+]
