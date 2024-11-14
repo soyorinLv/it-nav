@@ -1,11 +1,5 @@
-import { fileURLToPath, URL } from "node:url";
-
-import { defineConfig } from "vite";
-import vue from "@vitejs/plugin-vue";
-import { visualizer } from "rollup-plugin-visualizer";
-
-// https://vitejs.dev/config/
 export default defineConfig({
+  base: "/it-nav/",  // 替换为你的仓库名称或部署子路径
   server: {
     host: "0.0.0.0",
     port: 5173,
@@ -17,3 +11,4 @@ export default defineConfig({
     },
   },
 });
+
