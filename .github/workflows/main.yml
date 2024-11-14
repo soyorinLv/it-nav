@@ -8,6 +8,9 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write  # 用于获取身份令牌以进行部署
+      contents: write  # 允许将内容部署到 GitHub Pages
 
     steps:
       - name: Checkout repository
@@ -27,10 +30,10 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: skywarth/vite-github-pages-deployer@v1.4.0
         with:
-          public_base_path: '/it-nav/'  # 例如 '/my-vite-app/'，与 GitHub Pages 路径匹配
+          public_base_path: '/it-nav/'  # 仓库路径
           build_path: './dist'                  # Vite 默认输出目录
           install_phase_node_env: 'dev'         # 安装依赖的环境
           build_phase_node_env: 'production'    # 构建依赖的环境
-          package_manager: 'npm'                # 你的项目所使用的包管理器（npm 或 yarn）
-          artifact_name: 'github-pages'         # 构建产物名称，可保持默认
-          debug_mode: false                     # 如果调试需要更多信息可以设为 true
+          package_manager: 'npm'                # 使用的包管理器
+          artifact_name: 'github-pages'         # 构建产物名称
+          debug_mode: false                     # 调试模式
