@@ -1,0 +1,36 @@
+name: Deploy Vite App to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # 在 main 分支推送时触发
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.15.0'  # 根据 Vite 项目要求设置 Node.js 版本
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: skywarth/vite-github-pages-deployer@v1.4.0
+        with:
+          public_base_path: '/it-nav/'  # 例如 '/my-vite-app/'，与 GitHub Pages 路径匹配
+          build_path: './dist'                  # Vite 默认输出目录
+          install_phase_node_env: 'dev'         # 安装依赖的环境
+          build_phase_node_env: 'production'    # 构建依赖的环境
+          package_manager: 'npm'                # 你的项目所使用的包管理器（npm 或 yarn）
+          artifact_name: 'github-pages'         # 构建产物名称，可保持默认
+          debug_mode: false                     # 如果调试需要更多信息可以设为 true
