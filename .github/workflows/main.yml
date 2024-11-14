@@ -11,6 +11,7 @@ jobs:
     permissions:
       id-token: write  # 用于获取身份令牌以进行部署
       contents: write  # 允许将内容部署到 GitHub Pages
+      pages: write     # 增加 pages: write 权限，用于部署 GitHub Pages
 
     steps:
       - name: Checkout repository
@@ -31,9 +32,9 @@ jobs:
         uses: skywarth/vite-github-pages-deployer@v1.4.0
         with:
           public_base_path: '/it-nav/'  # 仓库路径
-          build_path: './dist'                  # Vite 默认输出目录
-          install_phase_node_env: 'dev'         # 安装依赖的环境
-          build_phase_node_env: 'production'    # 构建依赖的环境
-          package_manager: 'npm'                # 使用的包管理器
-          artifact_name: 'github-pages'         # 构建产物名称
-          debug_mode: false                     # 调试模式
+          build_path: './dist'          # Vite 默认输出目录
+          install_phase_node_env: 'dev' # 安装依赖的环境
+          build_phase_node_env: 'production' # 构建依赖的环境
+          package_manager: 'npm'        # 使用的包管理器
+          artifact_name: 'github-pages' # 构建产物名称
+          debug_mode: false             # 调试模式
